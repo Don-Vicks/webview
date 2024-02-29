@@ -21,9 +21,9 @@ class FirebaseInitialize {
   late AndroidNotificationChannel channel;
   initFirebaseState(BuildContext context) async {
     channel = const AndroidNotificationChannel(
-        'com.wrteam.webviewprime', // id
-        'Prime Web', // title
-        description: 'Prime Web', // description
+        'com.globaldata.city', // id
+        'Global Data City', // title
+        description: 'Global Data City', // description
         importance: Importance.high,
         playSound: true);
 

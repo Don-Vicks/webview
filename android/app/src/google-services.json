@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "527723016777",
+    "project_id": "globaldatacity",
+    "storage_bucket": "globaldatacity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527723016777:android:e4298afae5770f113c4598",
+        "android_client_info": {
+          "package_name": "com.globaldata.city"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmNTw27CGRmByHyh7TMI8u-K8zSRI11no"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

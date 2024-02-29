@@ -3,20 +3,19 @@ import 'package:prime_web/helpers/icons.dart';
 
 import 'Strings.dart';
 
-const appName = 'Prime Web';
+const appName = 'Global Data City';
 
-const String appbartitle = 'Prime Web';
-const String andoidPackageName = 'com.wrteam.webviewprime';
+const String appbartitle = 'Global Data City';
+const String andoidPackageName = 'com.globaldata.city';
 
 //change this url to set your URL in app
-const String webinitialUrl =
-    'https://codecanyon.net/item/prime-web-convert-website-to-a-flutter-app/35935177';
-const String firstTabUrl = 'https://wrteam.in/';
+const String webinitialUrl = 'https://globaldatacity.com.ng/user/login';
+const String firstTabUrl = 'https://globaldatacity.com.ng/user/login/';
 
 //keep local content of pages of setting screen
-const String aboutPageURL = '';
-const String privacyPageURL = '';
-const String termsPageURL = '';
+const String aboutPageURL = 'https://globaldatacity.com.ng/about/';
+const String privacyPageURL = 'https://globaldatacity.com.ng/privacy-policy/';
+const String termsPageURL = 'https://globaldatacity.com.ng/privacy-policy/';
 
 //Change App id of android and IOS app
 const String androidAppId = andoidPackageName;
@@ -27,25 +26,25 @@ const String shareAppTitle = appName;
 const String shareiOSAppMessage =
     'Download $appName App from this link : $appstoreURLIos';
 const String shareAndroidAppMessge =
-    'Download $appName App from this link : $playstoreURLAndroid';
+    'In need to pay your bills? Download $appName App from this link, Enjoy World Class topup service : $playstoreURLAndroid';
 
 const String playstoreURLAndroid =
     'https://play.google.com/store/apps/details?id=$androidAppId';
 const String appstoreURLIos = 'https://testflight.apple.com/join/l6t5kD1G';
 
 //To turn on/off ads
-const bool showInterstitialAds = true;
-const bool showBannerAds = true;
-const bool showOpenAds = true;
+const bool showInterstitialAds = false;
+const bool showBannerAds = false;
+const bool showOpenAds = false;
 
 //To turn on/off display of bottom navigation bar
-const bool showBottomNavigationBar = true;
+const bool showBottomNavigationBar = false;
 
 //To show/remove splash screen
 const bool showSplashScreen = true;
 
 //To show/remove onboarding screen
-const bool showOnboardingScreen = true;
+const bool showOnboardingScreen = false;
 
 //To remove/display header/footer of website
 const bool hideHeader = false;

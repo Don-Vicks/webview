@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
  xmlns:tools="http://schemas.android.com/tools"
-    package="com.wrteam.webviewprime">
+    package="com.globaldata.city">
     <queries>
       <!-- If your app opens https URLs -->
       <intent>
@@ -56,9 +56,9 @@
 
       
    <application
-        android:label="PrimeWeb"
+        android:label="Global Data City"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher_squircle"
+        android:icon="@mipmap/ic_launcher"
         android:usesCleartextTraffic="true"
         android:requestLegacyExternalStorage="true">
         
